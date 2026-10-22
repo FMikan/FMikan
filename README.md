@@ -20,7 +20,7 @@
 
 ```yaml
 name: Filip Mikan
-location: Rijeka, Croatia
+location: Karlovac, Croatia
 education:
   university: University of Rijeka
   faculty: Technical Faculty
