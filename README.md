@@ -14,8 +14,6 @@
 
 **Third-year Computer Science student** at the **Technical Faculty, University of Rijeka** · Croatia
 
-[About](#-about) &nbsp; ✦ &nbsp; [Tech stack](#-tech-stack) &nbsp; ✦ &nbsp; [What I'm exploring](#-what-im-exploring) &nbsp; ✦ &nbsp; [Portfolio](#-beyond-github)
-
 </div>
 
 ---
@@ -127,16 +125,6 @@ Modern web experiences with thoughtful layouts, strong visual identity, and atte
 A separate space for my web work, experiments, and digital projects.
 
 </div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=FMikan&show_icons=true&hide_border=true&bg_color=050816&title_color=06b6d4&text_color=cbd5e1&icon_color=8b5cf6&rank_icon=github" alt="GitHub stats" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FMikan&layout=compact&hide_border=true&bg_color=050816&title_color=06b6d4&text_color=cbd5e1" alt="Most used languages" />
 
 <br/><br/>
 
