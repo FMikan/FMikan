@@ -10,8 +10,6 @@
 
 <br/>
 
-### Building ideas into useful things.
-
 **Third-year Computer Science student** at the **Technical Faculty, University of Rijeka** · Croatia
 
 </div>
