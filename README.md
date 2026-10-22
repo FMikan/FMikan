@@ -122,7 +122,23 @@ Modern web experiences with thoughtful layouts, strong visual identity, and atte
 
 <br/><br/>
 
-A separate space for my web work, experiments, and digital projects.
+## 🌐 Beyond GitHub
+
+<div align="center">
+
+### Turning ideas into digital products.
+
+I design and build custom websites, web applications, and digital platforms
+for clients — combining thoughtful design with reliable engineering to
+create solutions tailored to real needs.
+
+<br/>
+
+<a href="https://fmikan.me">
+  <img src="https://img.shields.io/badge/VISIT%20MY%20WEBSITE-fmikan.me-06b6d4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my website"/>
+</a>
+
+</div>
 
 </div>
 
