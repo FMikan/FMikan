@@ -1,164 +1,147 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=160&color=0a0a0a&text=BUILD%20IDEAS%20INTO%20REALITY&fontColor=f5f5f5&fontSize=34&fontAlignY=44&desc=SOFTWARE%20%2F%20SYSTEMS%20%2F%20DIGITAL%20EXPERIENCES&descAlignY=70&descSize=11&animation=fadeIn" />
+<a href="https://fmikan.me">
+  <img width="100%" alt="Filip Mikan — Software, Systems, Digital Experiences" src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,35:111827,70:312e81,100:06b6d4&height=220&section=header&text=FILIP%20MIKAN&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=SOFTWARE%20%2F%20SYSTEMS%20%2F%20AI&descAlignY=60&descSize=16&animation=fadeIn" />
+</a>
+
+<a href="https://fmikan.me"><img src="https://img.shields.io/badge/PORTFOLIO-fmikan.me-06b6d4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<img src="https://img.shields.io/badge/FOCUS-SOFTWARE%20ENGINEERING-8b5cf6?style=for-the-badge" alt="Focus"/>
+<img src="https://img.shields.io/badge/EXPLORING-LLMs%20%26%20AI-22c55e?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs and AI"/>
 
 <br/>
 
-**FILIP MIKAN** &nbsp; / &nbsp; SOFTWARE DEVELOPER IN PROGRESS
+### Building ideas into useful things.
 
-Third-year Computer Science student at the Technical Faculty, University of Rijeka, Croatia.
+**Third-year Computer Science student** at the **Technical Faculty, University of Rijeka** · Croatia
 
-<br/>
-
-[PORTFOLIO ↗](https://fmikan.me) &nbsp; · &nbsp; [LINKEDIN](#) &nbsp; · &nbsp; [EMAIL](mailto:YOUR_EMAIL@example.com)
+[About](#-about) &nbsp; ✦ &nbsp; [Tech stack](#-tech-stack) &nbsp; ✦ &nbsp; [What I'm exploring](#-what-im-exploring) &nbsp; ✦ &nbsp; [Portfolio](#-beyond-github)
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="56%" valign="top">
+## 🧭 About
 
-### `01` / ABOUT
-
-I’m a third-year **Computer Science student at the Technical Faculty, University of Rijeka**.
-
-I enjoy building practical software — from modern web applications and backend APIs to databases, automation, and Linux environments.
-
-I’m interested in understanding how things work under the hood, choosing the right tools for the job, and continuously improving the way I build.
-
-</td>
-<td width="44%" valign="top">
-
-### `//` CURRENT CONTEXT
-
-```text
-$ whoami
-Filip Mikan
-
-$ location
-Rijeka, Croatia
-
-$ status
-Computer Science Student
-Year 03 / Technical Faculty
-
-$ exploring
-Software Engineering
-LLMs & AI-assisted development
-Infrastructure & Automation
+```yaml
+name: Filip Mikan
+location: Rijeka, Croatia
+education:
+  university: University of Rijeka
+  faculty: Technical Faculty
+  field: Computer Science
+  year: 3rd year
+interests:
+  - Full-stack development
+  - Backend engineering
+  - Linux & automation
+  - Large language models
 ```
 
-</td>
-</tr>
-</table>
+I enjoy understanding how systems work, building practical software, and improving the details that make a product reliable and easy to use. I work across web development, backend APIs, databases, Linux, and automation — while exploring how **LLMs can become genuinely useful tools** in development and everyday workflows.
 
----
+## ⚙️ Tech stack
 
-### `02` / TOOLKIT
+<div align="center">
 
-<table>
-<tr>
-<td width="20%" valign="top"><b>FRONTEND</b></td>
-<td>React · Next.js · TypeScript · HTML · CSS</td>
-</tr>
-<tr>
-<td valign="top"><b>BACKEND</b></td>
-<td>C# · .NET · ASP.NET Core · Java · REST APIs · JWT</td>
-</tr>
-<tr>
-<td valign="top"><b>DATA</b></td>
-<td>PostgreSQL · SQL · Entity Framework Core</td>
-</tr>
-<tr>
-<td valign="top"><b>INFRASTRUCTURE</b></td>
-<td>Linux · Docker · Kubernetes · Ansible · Git</td>
-</tr>
-<tr>
-<td valign="top"><b>DESIGN & WORKFLOW</b></td>
-<td>Figma · VS Code · Terminal · GitHub</td>
-</tr>
-<tr>
-<td valign="top"><b>LLMs & AI</b></td>
-<td>Large language models · AI-assisted coding · Prompting · Exploring LLM capabilities, workflows, and practical applications</td>
-</tr>
-</table>
+### FRONTEND
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,html,css&theme=dark" alt="Frontend tools"/>
 
----
+### BACKEND & DATA
+<img src="https://skillicons.dev/icons?i=cs,dotnet,java,postgres&theme=dark" alt="Backend and database tools"/>
 
-### `03` / SELECTED WORK
+### INFRASTRUCTURE & WORKFLOW
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,ansible,git,github,vscode,figma&theme=dark" alt="Infrastructure and workflow tools"/>
 
-> A few areas I build and experiment with. Replace these examples with links to your actual repositories when you're ready.
+</div>
+
+## 🧪 What I'm exploring
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**01 — FULL-STACK APPLICATIONS**
+### 🤖 LLMs & AI
 
-Web applications with authentication, API design, database integration, and a focus on maintainable architecture.
+Exploring large language models, AI-assisted coding, prompting, model capabilities and limitations, and practical AI workflows.
 
-`C#` `ASP.NET Core` `React` `PostgreSQL`
+<img src="https://img.shields.io/badge/LLMs-Exploring-22c55e?style=flat-square" alt="LLMs"/>
+<img src="https://img.shields.io/badge/AI%20Workflows-Experimenting-8b5cf6?style=flat-square" alt="AI workflows"/>
 
 </td>
 <td width="50%" valign="top">
 
-**02 — INFRASTRUCTURE & AUTOMATION**
+### 🧱 Software engineering
 
-Linux environments, containerized workloads, deployment workflows, and scripts that reduce repetitive work.
+Designing maintainable APIs, structuring applications, working with databases, and learning the trade-offs behind good architecture.
 
-`Linux` `Docker` `Kubernetes` `Ansible`
+<img src="https://img.shields.io/badge/APIs-.NET-512bd4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET APIs"/>
+<img src="https://img.shields.io/badge/Data-PostgreSQL-4169e1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**03 — AI & LLM EXPERIMENTS**
+### 🐧 Systems & automation
 
-Exploring how LLMs can support development, automate workflows, and solve practical problems.
-
-`LLMs` `AI tools` `Experimentation`
+Linux environments, containers, deployment workflows, and automation that removes repetitive work.
 
 </td>
 <td width="50%" valign="top">
 
-**04 — UNIVERSITY & SIDE PROJECTS**
+### ✨ Product & interface
 
-Coursework, technical experiments, and small projects built to understand concepts by putting them into practice.
-
-`C++` `Java` `SQL` `More`
+Modern web experiences with thoughtful layouts, strong visual identity, and attention to small details.
 
 </td>
 </tr>
 </table>
 
----
+## 📌 Selected work
 
-### `04` / CURRENTLY EXPLORING
+> Replace these categories with your actual repositories and demos as you decide which projects you want to feature.
 
-- **LLMs in practice** — capabilities, limitations, prompting, and useful development workflows.
-- **Software architecture** — building maintainable backends and well-structured applications.
-- **Modern web development** — thoughtful UI, performance, and polished user experiences.
-- **Infrastructure** — containers, automation, and reliable deployment processes.
+<div align="center">
 
----
+<a href="https://github.com/FMikan?tab=repositories">
+  <img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"/>
+</a>
 
-### `05` / BEYOND THE REPOSITORIES
+</div>
 
-I also design and build websites, with an interest in the details that make digital experiences feel considered and distinctive.
+- **Full-stack applications** — web interfaces, APIs, authentication, and database integration.
+- **Infrastructure & automation** — Linux, containers, and repeatable deployment workflows.
+- **LLM experiments** — practical experiments with AI tools and language-model workflows.
+- **University projects** — coursework and hands-on technical explorations.
 
-**Personal website:** [fmikan.me ↗](https://fmikan.me)
+## 🌐 Beyond GitHub
+
+<div align="center">
+
+<a href="https://fmikan.me">
+  <img src="https://img.shields.io/badge/VISIT%20MY%20WEBSITE-fmikan.me-06b6d4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit fmikan.me"/>
+</a>
+
+<br/><br/>
+
+A separate space for my web work, experiments, and digital projects.
+
+</div>
 
 ---
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=FMikan&show_icons=true&hide_border=true&bg_color=050816&title_color=06b6d4&text_color=cbd5e1&icon_color=8b5cf6&rank_icon=github" alt="GitHub stats" />
+
 <br/>
 
-`INDEPENDENT THINKING.` &nbsp; `PRACTICAL ENGINEERING.`
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FMikan&layout=compact&hide_border=true&bg_color=050816&title_color=06b6d4&text_color=cbd5e1" alt="Most used languages" />
 
-<sub>BUILT WITH CURIOSITY · IMPROVED THROUGH ITERATION</sub>
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:050816&height=100&section=footer" width="100%" alt="Footer"/>
+
+<sub>INDEPENDENT THINKING · PRACTICAL ENGINEERING · CONTINUOUS EXPLORATION</sub>
 
 </div>
