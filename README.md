@@ -184,12 +184,6 @@ I design and build custom websites, web applications, and digital platforms for 
 
 <br/><br/>
 
-<a href="https://fmikan.me">fmikan.me</a>
-
-</div>
-
-<br/><br/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:050816&height=100&section=footer" width="100%" alt="Footer"/>
 
 <div align="center">
