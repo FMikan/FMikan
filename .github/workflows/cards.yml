@@ -1,0 +1,43 @@
+name: Profile cards
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [render.py, "fonts/**", data/query.graphql, "portrait.*"]
+
+permissions:
+  contents: write
+
+concurrency: cards
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Refresh contribution data
+        env:
+          # Optional CARDS_TOKEN (a PAT) also counts private contributions; the default token sees public ones.
+          GH_TOKEN: ${{ secrets.CARDS_TOKEN || github.token }}
+        run: gh api graphql -f login=${{ github.repository_owner }} -F query=@data/query.graphql > data/github.json
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Render cards
+        run: |
+          pip install fonttools brotli
+          python test_render.py
+          python render.py
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/github.json cards
+          git diff --cached --quiet || { git commit -m "Refresh profile cards"; git push; }
