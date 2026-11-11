@@ -25,11 +25,11 @@ from fontTools.varLib.instancer import instantiateVariableFont
 ROOT = Path(__file__).parent
 STATIC = os.environ.get("STATIC") == "1"
 
-# Warm ink on charcoal, one lime accent
-BG, LINE, INK, ACCENT = "#121310", "#2a2b25", "#f1efe7", "#c9f73a"
-LEVELS = {"NONE": "#22231e", "FIRST_QUARTILE": "#3d4a18", "SECOND_QUARTILE": "#62801e",
-          "THIRD_QUARTILE": "#95c22a", "FOURTH_QUARTILE": ACCENT}
-LANG_COLOURS = [ACCENT, INK, "#8b8a80", "#55564d"]
+# Blue on white, like a survey sheet
+BG, LINE, INK, ACCENT = "#f7f9fe", "#d9e1f0", "#0b1b45", "#1f4cff"
+LEVELS = {"NONE": "#e6ebf6", "FIRST_QUARTILE": "#bccbfa", "SECOND_QUARTILE": "#859ff8",
+          "THIRD_QUARTILE": "#4a73f6", "FOURTH_QUARTILE": ACCENT}
+LANG_COLOURS = [ACCENT, INK, "#8796b8", "#c3cce0"]
 FONTS = {"n": ROOT / "fonts/Nippo-Medium.woff2", "s": ROOT / "fonts/Satoshi-Variable.woff2",
          "m": ROOT / "fonts/JetBrainsMono-Regular.ttf"}
 
