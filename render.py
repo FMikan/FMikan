@@ -193,7 +193,7 @@ def topo(cx, cy, rings, gap, seed, wait, stroke=INK):
 
 
 def font_face(key, text):
-    font = TTFont(FONTS[key])
+    font = TTFont(FONTS[key], recalcTimestamp=False)  # same input, same bytes: no daily no-op commits
     s = subset.Subsetter(subset.Options(hinting=False))  # pyftsubset's engine
     s.populate(text=text)
     s.subset(font)
@@ -296,14 +296,13 @@ def hero():
 
 
 def tile(i, key, name, value, note):
-    hot = i == 0
     d = T_TILES + .12 * i
-    b = topo(262, 176, 6, 14, seed=11 + i, wait=d, stroke=INK)
-    b += el("path", d="M232 44 L248 28 M234 28 H248 V42", fill="none", stroke=INK, stroke_width=2,
+    b = topo(262, 176, 6, 14, seed=11 + i, wait=d)
+    b += el("path", d="M232 44 L248 28 M234 28 H248 V42", fill="none", stroke=ACCENT, stroke_width=2,
             stroke_linecap="round", stroke_linejoin="round", pathLength=1, class_="draw", style=delay(d + .3))
-    b += el("g", label(name, 24, 40, op=.7 if hot else .55, fill=INK) + txt(value, 24, 108, 26, "n", fill=INK)
-            + txt(note, 24, 136, 14, op=.75 if hot else .6, fill=INK), class_="rise", style=delay(d))
-    card(f"tile-{key}", 272, 168, b, f"{name}: {value}", bg=ACCENT if hot else BG)
+    b += el("g", label(name, 24, 40) + txt(value, 24, 108, 26, "n") + txt(note, 24, 136, 14, op=.6),
+            class_="rise", style=delay(d))
+    card(f"tile-{key}", 272, 168, b, f"{name}: {value}")
 
 
 def stack():
