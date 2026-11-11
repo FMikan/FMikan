@@ -25,11 +25,11 @@ from fontTools.varLib.instancer import instantiateVariableFont
 ROOT = Path(__file__).parent
 STATIC = os.environ.get("STATIC") == "1"
 
-# Blue on white, like a survey sheet
-BG, LINE, INK, ACCENT = "#f7f9fe", "#d9e1f0", "#0b1b45", "#1f4cff"
-LEVELS = {"NONE": "#e6ebf6", "FIRST_QUARTILE": "#bccbfa", "SECOND_QUARTILE": "#859ff8",
-          "THIRD_QUARTILE": "#4a73f6", "FOURTH_QUARTILE": ACCENT}
-LANG_COLOURS = [ACCENT, INK, "#8796b8", "#c3cce0"]
+# White and blue on a near-black night sheet
+BG, LINE, INK, ACCENT = "#0b1020", "#1f2945", "#eef2ff", "#3b66ff"
+LEVELS = {"NONE": "#161d33", "FIRST_QUARTILE": "#1e3170", "SECOND_QUARTILE": "#2949b3",
+          "THIRD_QUARTILE": ACCENT, "FOURTH_QUARTILE": "#9db4ff"}
+LANG_COLOURS = [ACCENT, INK, "#6f7a99", "#3a4466"]
 FONTS = {"n": ROOT / "fonts/Nippo-Medium.woff2", "s": ROOT / "fonts/Satoshi-Variable.woff2",
          "m": ROOT / "fonts/JetBrainsMono-Regular.ttf"}
 
@@ -297,13 +297,12 @@ def hero():
 
 def tile(i, key, name, value, note):
     hot = i == 0
-    fg = BG if hot else INK
     d = T_TILES + .12 * i
-    b = topo(262, 176, 6, 14, seed=11 + i, wait=d, stroke=fg)
-    b += el("path", d="M232 44 L248 28 M234 28 H248 V42", fill="none", stroke=fg, stroke_width=2,
+    b = topo(262, 176, 6, 14, seed=11 + i, wait=d, stroke=INK)
+    b += el("path", d="M232 44 L248 28 M234 28 H248 V42", fill="none", stroke=INK, stroke_width=2,
             stroke_linecap="round", stroke_linejoin="round", pathLength=1, class_="draw", style=delay(d + .3))
-    b += el("g", label(name, 24, 40, op=.7 if hot else .55, fill=fg) + txt(value, 24, 108, 26, "n", fill=fg)
-            + txt(note, 24, 136, 14, op=.75 if hot else .6, fill=fg), class_="rise", style=delay(d))
+    b += el("g", label(name, 24, 40, op=.7 if hot else .55, fill=INK) + txt(value, 24, 108, 26, "n", fill=INK)
+            + txt(note, 24, 136, 14, op=.75 if hot else .6, fill=INK), class_="rise", style=delay(d))
     card(f"tile-{key}", 272, 168, b, f"{name}: {value}", bg=ACCENT if hot else BG)
 
 
